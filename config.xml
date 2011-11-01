@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <widget xmlns		= "http://www.w3.org/ns/widgets"
 	xmlns:gap	= "http://phonegap.com/ns/1.0"
-	id		= "com.hanze.fellow.finder"
-	version 	= "99.999">
+	id		= "com.phonegap.getting.started"
+	version 	= "1.0.0">
 
-	<name>Hanze Fellow Finder</name>
+	<name>PhoneGap: Getting Started</name>
 
 	<description>
-		Hanze Fellow Finder is ontwikkeld als proof of concept voor het vak Tools tijdens de specialisatie Web & Mobile Services van de studie Communicatiesystemen aan de Hanzehogeschool Groningen.
+		A template for getting started with PhoneGap development and build.phonegap.com
 	</description>
 
-	<author href="http://nielsvaneck.nl"
-		email="niels@vaneck.nu">
-		Niels van Eck
+	<author href="http://alunny.github.com"
+		email="andrew.lunny@nitobi.com">
+		Andrew Lunny
 	</author>
 
 	<gap:platforms>
