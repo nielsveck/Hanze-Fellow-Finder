@@ -2,7 +2,7 @@
 <widget xmlns		= "http://www.w3.org/ns/widgets"
 	xmlns:gap	= "http://phonegap.com/ns/1.0"
 	id		= "com.hanze.fellow.finder"
-	version 	= "0.0.1">
+	version 	= "99.999">
 
 	<name>Hanze Fellow Finder</name>
 
@@ -12,8 +12,6 @@
 
 	<author href="http://nielsvaneck.nl"
 		email="niels@vaneck.nu">
-		Paul Stegeman
-		Bert Boersma
 		Niels van Eck
 	</author>
 
