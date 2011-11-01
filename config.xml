@@ -23,6 +23,9 @@
 	</gap:platforms>
 
 	<icon src="icon.png" gap:role="default" />
+	<icon src="icon.png" width="72" height="72" />
+   <icon src="icon.png" width="48" height="48" />
+	<icon src="icon.png" width="36" height="36" />
 
 	<feature name="http://api.phonegap.com/1.0/geolocation"/>
 	<feature name="http://api.phonegap.com/1.0/network"/>
