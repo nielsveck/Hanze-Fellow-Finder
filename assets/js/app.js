@@ -17,3 +17,4 @@ $( function() {
 	function onDeviceReady() {
 		navigator.network.isReachable('phonegap.com', reachableCallback);
 	}
+});
