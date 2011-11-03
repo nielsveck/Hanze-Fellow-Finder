@@ -1,17 +1,7 @@
 $( function() {
 	$('#searchButton').click(function() {
-		$.getJSON('http://api.alternativeto.net/software/'+$('#searchBox').val()+'/?count=15', 
-			function(data) {
-				var items=data.Items;
-				var list = $('#list');
-				list.html("");
-				$.each(items, function(key, val) {
-					list.append($(document.createElement('li')).html(val.Name));
-				});
-				list.listview("destroy").listview()
-			});
-		});
-		document.addEventListener("deviceready", onDeviceReady, false);
+		alert('test');
+		//document.addEventListener("deviceready", onDeviceReady, false);
 	});
 	
 	function reachableCallback(reachability) {
