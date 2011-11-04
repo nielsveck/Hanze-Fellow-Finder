@@ -18,37 +18,37 @@
 -----------------------------------------------------------------------------------------------------------*/
 
 .ui-bar-a {
-	border: 1px solid #4d4d4d /*{a-bar-border}*/;
-	background: #4d4d4d /*{a-bar-background-color}*/;
-	color: #ffffff /*{a-bar-color}*/;
+	border: 1px solid  #4d4d4d  /*{a-bar-border}*/;
+	background:  #4d4d4d  /*{a-bar-background-color}*/;
+	color:  #ffffff  /*{a-bar-color}*/;
 	font-weight: bold;
-	text-shadow:  0  /*{a-bar-shadow-x}*/  1px  /*{a-bar-shadow-y}*/  1px  /*{a-bar-shadow-radius}*/ #444444 /*{a-bar-shadow-color}*/;
-	background-image: -webkit-gradient(linear, left top, left bottom, #545454 /*{a-bar-background-start}*/), #454545 /*{a-bar-background-end}*/)); /* Saf4+, Chrome */
-	background-image: -webkit-linear-gradient(top, #545454 /*{a-bar-background-start}*/, #454545 /*{a-bar-background-end}*/); /* Chrome 10+, Saf5.1+ */
-	background-image:    -moz-linear-gradient(top, #545454 /*{a-bar-background-start}*/, #454545 /*{a-bar-background-end}*/); /* FF3.6 */
-	background-image:     -ms-linear-gradient(top, #545454 /*{a-bar-background-start}*/, #454545 /*{a-bar-background-end}*/); /* IE10 */
-	background-image:      -o-linear-gradient(top, #545454 /*{a-bar-background-start}*/, #454545 /*{a-bar-background-end}*/); /* Opera 11.10+ */
-	background-image:         linear-gradient(top, #545454 /*{a-bar-background-start}*/, #454545 /*{a-bar-background-end}*/);
+	text-shadow:   0   /*{a-bar-shadow-x}*/   1px   /*{a-bar-shadow-y}*/   1px   /*{a-bar-shadow-radius}*/  #444444  /*{a-bar-shadow-color}*/;
+	background-image: -webkit-gradient(linear, left top, left bottom,  #545454  /*{a-bar-background-start}*/),  #454545  /*{a-bar-background-end}*/)); /* Saf4+, Chrome */
+	background-image: -webkit-linear-gradient(top,  #545454  /*{a-bar-background-start}*/,  #454545  /*{a-bar-background-end}*/); /* Chrome 10+, Saf5.1+ */
+	background-image:    -moz-linear-gradient(top,  #545454  /*{a-bar-background-start}*/,  #454545  /*{a-bar-background-end}*/); /* FF3.6 */
+	background-image:     -ms-linear-gradient(top,  #545454  /*{a-bar-background-start}*/,  #454545  /*{a-bar-background-end}*/); /* IE10 */
+	background-image:      -o-linear-gradient(top,  #545454  /*{a-bar-background-start}*/,  #454545  /*{a-bar-background-end}*/); /* Opera 11.10+ */
+	background-image:         linear-gradient(top,  #545454  /*{a-bar-background-start}*/,  #454545  /*{a-bar-background-end}*/);
 }
 
 .ui-bar-a .ui-link-inherit {
-	color: #ffffff /*{a-bar-color}*/;
+	color:  #ffffff  /*{a-bar-color}*/;
 }
 .ui-bar-a .ui-link {
-	color:  #7cc4e7  /*{a-bar-link-color}*/;
+	color:   #7cc4e7   /*{a-bar-link-color}*/;
 	font-weight: bold;
 }
 
 .ui-bar-a .ui-link:hover {
-	color:  #2489CE  /*{a-bar-link-hover}*/;
+	color:   #2489CE   /*{a-bar-link-hover}*/;
 }
 
 .ui-bar-a .ui-link:active {
-	color:  #2489CE  /*{a-bar-link-active}*/;
+	color:   #2489CE   /*{a-bar-link-active}*/;
 }
 
 .ui-bar-a .ui-link:visited {
-    color:  #2489CE  /*{a-bar-link-visited}*/;
+    color:   #2489CE   /*{a-bar-link-visited}*/;
 }
 
 .ui-bar-a,
@@ -56,94 +56,94 @@
 .ui-bar-a select,
 .ui-bar-a textarea,
 .ui-bar-a button {
-	   font-family: Helvetica, Arial, sans-serif  /*{global-font-family}*/;
+	     font-family: Helvetica, Arial, sans-serif   /*{global-font-family}*/;
 }
 .ui-body-a {
-	border: 1px solid #4C6C22 /*{a-body-border}*/;
-	color: #ffffff /*{a-body-color}*/;
-	text-shadow:  0  /*{a-body-shadow-x}*/  1px  /*{a-body-shadow-y}*/  0  /*{a-body-shadow-radius}*/ #444444 /*{a-body-shadow-color}*/;
-	background: #8bc63f /*{a-body-background-color}*/;
-	background-image: -webkit-gradient(linear, left top, left bottom, #98D945 /*{a-body-background-start}*/), #7DB238 /*{a-body-background-end}*/)); /* Saf4+, Chrome */
-	background-image: -webkit-linear-gradient(top, #98D945 /*{a-body-background-start}*/, #7DB238 /*{a-body-background-end}*/); /* Chrome 10+, Saf5.1+ */
-	background-image:    -moz-linear-gradient(top, #98D945 /*{a-body-background-start}*/, #7DB238 /*{a-body-background-end}*/); /* FF3.6 */
-	background-image:     -ms-linear-gradient(top, #98D945 /*{a-body-background-start}*/, #7DB238 /*{a-body-background-end}*/); /* IE10 */
-	background-image:      -o-linear-gradient(top, #98D945 /*{a-body-background-start}*/, #7DB238 /*{a-body-background-end}*/); /* Opera 11.10+ */
-	background-image:         linear-gradient(top, #98D945 /*{a-body-background-start}*/, #7DB238 /*{a-body-background-end}*/);
+	border: 1px solid #7E7E7E /*{a-body-border}*/;
+	color: #000000 /*{a-body-color}*/;
+	text-shadow:   0   /*{a-body-shadow-x}*/   1px   /*{a-body-shadow-y}*/   0   /*{a-body-shadow-radius}*/ #eeeeee /*{a-body-shadow-color}*/;
+	background: #e6e6e6 /*{a-body-background-color}*/;
+	background-image: -webkit-gradient(linear, left top, left bottom, #FDFDFD /*{a-body-background-start}*/), #CFCFCF /*{a-body-background-end}*/)); /* Saf4+, Chrome */
+	background-image: -webkit-linear-gradient(top, #FDFDFD /*{a-body-background-start}*/, #CFCFCF /*{a-body-background-end}*/); /* Chrome 10+, Saf5.1+ */
+	background-image:    -moz-linear-gradient(top, #FDFDFD /*{a-body-background-start}*/, #CFCFCF /*{a-body-background-end}*/); /* FF3.6 */
+	background-image:     -ms-linear-gradient(top, #FDFDFD /*{a-body-background-start}*/, #CFCFCF /*{a-body-background-end}*/); /* IE10 */
+	background-image:      -o-linear-gradient(top, #FDFDFD /*{a-body-background-start}*/, #CFCFCF /*{a-body-background-end}*/); /* Opera 11.10+ */
+	background-image:         linear-gradient(top, #FDFDFD /*{a-body-background-start}*/, #CFCFCF /*{a-body-background-end}*/);
 }
 .ui-body-a,
 .ui-body-a input,
 .ui-body-a select,
 .ui-body-a textarea,
 .ui-body-a button {
-	   font-family: Helvetica, Arial, sans-serif  /*{global-font-family}*/;
+	     font-family: Helvetica, Arial, sans-serif   /*{global-font-family}*/;
 }
 
 .ui-body-a .ui-link-inherit {
-	color: #ffffff /*{a-body-color}*/;
+	color: #000000 /*{a-body-color}*/;
 }
 
 .ui-body-a .ui-link {
-	color: #682321 /*{a-body-link-color}*/;
+	color: #2489CE /*{a-body-link-color}*/;
 	font-weight: bold;
 }
 
 .ui-body-a .ui-link:hover {
-	color: #772825 /*{a-body-link-hover}*/;
+	color:  #772825  /*{a-body-link-hover}*/;
 }
 
 .ui-body-a .ui-link:active {
-	color: #682321 /*{a-body-link-active}*/;
+	color:  #682321  /*{a-body-link-active}*/;
 }
 
 .ui-body-a .ui-link:visited {
-    color: #431615 /*{a-body-link-visited}*/;
+    color:  #431615  /*{a-body-link-visited}*/;
 }
 
 .ui-btn-up-a {
-	border: 1px solid #ffcc33 /*{a-bup-border}*/;
-	background: #ffcc33 /*{a-bup-background-color}*/;
+	border: 1px solid #29abe2 /*{a-bup-border}*/;
+	background: #29abe2 /*{a-bup-background-color}*/;
 	font-weight: bold;
-	color: #000000 /*{a-bup-color}*/;
-	text-shadow:  0  /*{a-bup-shadow-x}*/  1px  /*{a-bup-shadow-y}*/  1px  /*{a-bup-shadow-radius}*/ #eeeeee /*{a-bup-shadow-color}*/;
-	background-image: -webkit-gradient(linear, left top, left bottom, #FFE038 /*{a-bup-background-start}*/), #E5B72D /*{a-bup-background-end}*/)); /* Saf4+, Chrome */
-	background-image: -webkit-linear-gradient(top, #FFE038 /*{a-bup-background-start}*/, #E5B72D /*{a-bup-background-end}*/); /* Chrome 10+, Saf5.1+ */
-	background-image:    -moz-linear-gradient(top, #FFE038 /*{a-bup-background-start}*/, #E5B72D /*{a-bup-background-end}*/); /* FF3.6 */
-	background-image:     -ms-linear-gradient(top, #FFE038 /*{a-bup-background-start}*/, #E5B72D /*{a-bup-background-end}*/); /* IE10 */
-	background-image:      -o-linear-gradient(top, #FFE038 /*{a-bup-background-start}*/, #E5B72D /*{a-bup-background-end}*/); /* Opera 11.10+ */
-	background-image:         linear-gradient(top, #FFE038 /*{a-bup-background-start}*/, #E5B72D /*{a-bup-background-end}*/);
+	color: #ffffff /*{a-bup-color}*/;
+	text-shadow:   0   /*{a-bup-shadow-x}*/   1px   /*{a-bup-shadow-y}*/   1px   /*{a-bup-shadow-radius}*/ #444444 /*{a-bup-shadow-color}*/;
+	background-image: -webkit-gradient(linear, left top, left bottom, #2DBCF8 /*{a-bup-background-start}*/), #2499CB /*{a-bup-background-end}*/)); /* Saf4+, Chrome */
+	background-image: -webkit-linear-gradient(top, #2DBCF8 /*{a-bup-background-start}*/, #2499CB /*{a-bup-background-end}*/); /* Chrome 10+, Saf5.1+ */
+	background-image:    -moz-linear-gradient(top, #2DBCF8 /*{a-bup-background-start}*/, #2499CB /*{a-bup-background-end}*/); /* FF3.6 */
+	background-image:     -ms-linear-gradient(top, #2DBCF8 /*{a-bup-background-start}*/, #2499CB /*{a-bup-background-end}*/); /* IE10 */
+	background-image:      -o-linear-gradient(top, #2DBCF8 /*{a-bup-background-start}*/, #2499CB /*{a-bup-background-end}*/); /* Opera 11.10+ */
+	background-image:         linear-gradient(top, #2DBCF8 /*{a-bup-background-start}*/, #2499CB /*{a-bup-background-end}*/);
 }
 .ui-btn-up-a a.ui-link-inherit {
-	color: #000000 /*{a-bup-color}*/;
+	color: #ffffff /*{a-bup-color}*/;
 }
 
 .ui-btn-hover-a {
-	border: 1px solid #FFEA3A /*{a-bhover-border}*/;
-	background: #FFEA3A /*{a-bhover-background-color}*/;
+	border: 1px solid #2FC4FF /*{a-bhover-border}*/;
+	background: #2FC4FF /*{a-bhover-background-color}*/;
 	font-weight: bold;
-	color: #000000 /*{a-bhover-color}*/;
-	text-shadow:  0  /*{a-bhover-shadow-x}*/  1px  /*{a-bhover-shadow-y}*/  1px  /*{a-bhover-shadow-radius}*/ #eeeeee /*{a-bhover-shadow-color}*/;
-	background-image: -webkit-gradient(linear, left top, left bottom, #FFFF3F /*{a-bhover-background-start}*/), #E5D234 /*{a-bhover-background-end}*/)); /* Saf4+, Chrome */
-	background-image: -webkit-linear-gradient(top, #FFFF3F /*{a-bhover-background-start}*/, #E5D234 /*{a-bhover-background-end}*/); /* Chrome 10+, Saf5.1+ */
-	background-image:    -moz-linear-gradient(top, #FFFF3F /*{a-bhover-background-start}*/, #E5D234 /*{a-bhover-background-end}*/); /* FF3.6 */
-	background-image:     -ms-linear-gradient(top, #FFFF3F /*{a-bhover-background-start}*/, #E5D234 /*{a-bhover-background-end}*/); /* IE10 */
-	background-image:      -o-linear-gradient(top, #FFFF3F /*{a-bhover-background-start}*/, #E5D234 /*{a-bhover-background-end}*/); /* Opera 11.10+ */
-	background-image:         linear-gradient(top, #FFFF3F /*{a-bhover-background-start}*/, #E5D234 /*{a-bhover-background-end}*/);
+	color: #ffffff /*{a-bhover-color}*/;
+	text-shadow:   0   /*{a-bhover-shadow-x}*/   1px   /*{a-bhover-shadow-y}*/   1px   /*{a-bhover-shadow-radius}*/ #444444 /*{a-bhover-shadow-color}*/;
+	background-image: -webkit-gradient(linear, left top, left bottom, #33D7FF /*{a-bhover-background-start}*/), #2AB0E5 /*{a-bhover-background-end}*/)); /* Saf4+, Chrome */
+	background-image: -webkit-linear-gradient(top, #33D7FF /*{a-bhover-background-start}*/, #2AB0E5 /*{a-bhover-background-end}*/); /* Chrome 10+, Saf5.1+ */
+	background-image:    -moz-linear-gradient(top, #33D7FF /*{a-bhover-background-start}*/, #2AB0E5 /*{a-bhover-background-end}*/); /* FF3.6 */
+	background-image:     -ms-linear-gradient(top, #33D7FF /*{a-bhover-background-start}*/, #2AB0E5 /*{a-bhover-background-end}*/); /* IE10 */
+	background-image:      -o-linear-gradient(top, #33D7FF /*{a-bhover-background-start}*/, #2AB0E5 /*{a-bhover-background-end}*/); /* Opera 11.10+ */
+	background-image:         linear-gradient(top, #33D7FF /*{a-bhover-background-start}*/, #2AB0E5 /*{a-bhover-background-end}*/);
 }
 .ui-btn-hover-a a.ui-link-inherit {
-	color: #000000 /*{a-bhover-color}*/;
+	color: #ffffff /*{a-bhover-color}*/;
 }
 .ui-btn-down-a {
-	border: 1px solid #FFEA3A /*{a-bdown-border}*/;
-	background: #FFEA3A /*{a-bdown-background-color}*/;
+	border: 1px solid #2FC4FF /*{a-bdown-border}*/;
+	background: #2FC4FF /*{a-bdown-background-color}*/;
 	font-weight: bold;
 	color: #000000 /*{a-bdown-color}*/;
-	text-shadow:  0  /*{a-bdown-shadow-x}*/  1px  /*{a-bdown-shadow-y}*/  1px  /*{a-bdown-shadow-radius}*/ #eeeeee /*{a-bdown-shadow-color}*/;
-	background-image: -webkit-gradient(linear, left top, left bottom, #E5D234 /*{a-bdown-background-start}*/), #FFFF3F /*{a-bdown-background-end}*/)); /* Saf4+, Chrome */
-	background-image: -webkit-linear-gradient(top, #E5D234 /*{a-bdown-background-start}*/, #FFFF3F /*{a-bdown-background-end}*/); /* Chrome 10+, Saf5.1+ */
-	background-image:    -moz-linear-gradient(top, #E5D234 /*{a-bdown-background-start}*/, #FFFF3F /*{a-bdown-background-end}*/); /* FF3.6 */
-	background-image:     -ms-linear-gradient(top, #E5D234 /*{a-bdown-background-start}*/, #FFFF3F /*{a-bdown-background-end}*/); /* IE10 */
-	background-image:      -o-linear-gradient(top, #E5D234 /*{a-bdown-background-start}*/, #FFFF3F /*{a-bdown-background-end}*/); /* Opera 11.10+ */
-	background-image:         linear-gradient(top, #E5D234 /*{a-bdown-background-start}*/, #FFFF3F /*{a-bdown-background-end}*/);
+	text-shadow:   0   /*{a-bdown-shadow-x}*/   1px   /*{a-bdown-shadow-y}*/   1px   /*{a-bdown-shadow-radius}*/ #eeeeee /*{a-bdown-shadow-color}*/;
+	background-image: -webkit-gradient(linear, left top, left bottom, #2AB0E5 /*{a-bdown-background-start}*/), #33D7FF /*{a-bdown-background-end}*/)); /* Saf4+, Chrome */
+	background-image: -webkit-linear-gradient(top, #2AB0E5 /*{a-bdown-background-start}*/, #33D7FF /*{a-bdown-background-end}*/); /* Chrome 10+, Saf5.1+ */
+	background-image:    -moz-linear-gradient(top, #2AB0E5 /*{a-bdown-background-start}*/, #33D7FF /*{a-bdown-background-end}*/); /* FF3.6 */
+	background-image:     -ms-linear-gradient(top, #2AB0E5 /*{a-bdown-background-start}*/, #33D7FF /*{a-bdown-background-end}*/); /* IE10 */
+	background-image:      -o-linear-gradient(top, #2AB0E5 /*{a-bdown-background-start}*/, #33D7FF /*{a-bdown-background-end}*/); /* Opera 11.10+ */
+	background-image:         linear-gradient(top, #2AB0E5 /*{a-bdown-background-start}*/, #33D7FF /*{a-bdown-background-end}*/);
 }
 .ui-btn-down-a a.ui-link-inherit {
 	color: #000000 /*{a-bdown-color}*/;
@@ -151,9 +151,152 @@
 .ui-btn-up-a,
 .ui-btn-hover-a,
 .ui-btn-down-a {
-	   font-family: Helvetica, Arial, sans-serif  /*{global-font-family}*/;
+	     font-family: Helvetica, Arial, sans-serif   /*{global-font-family}*/;
 	text-decoration: none;
 }
+
+/* B
+-----------------------------------------------------------------------------------------------------------*/
+
+.ui-bar-b {
+	border: 1px solid  #4d4d4d  /*{b-bar-border}*/;
+	background:  #4d4d4d  /*{b-bar-background-color}*/;
+	color:  #ffffff  /*{b-bar-color}*/;
+	font-weight: bold;
+	text-shadow:   0   /*{b-bar-shadow-x}*/   1px   /*{b-bar-shadow-y}*/   1px   /*{b-bar-shadow-radius}*/  #444444  /*{b-bar-shadow-color}*/;
+	background-image: -webkit-gradient(linear, left top, left bottom,  #545454  /*{b-bar-background-start}*/),  #454545  /*{b-bar-background-end}*/)); /* Saf4+, Chrome */
+	background-image: -webkit-linear-gradient(top,  #545454  /*{b-bar-background-start}*/,  #454545  /*{b-bar-background-end}*/); /* Chrome 10+, Saf5.1+ */
+	background-image:    -moz-linear-gradient(top,  #545454  /*{b-bar-background-start}*/,  #454545  /*{b-bar-background-end}*/); /* FF3.6 */
+	background-image:     -ms-linear-gradient(top,  #545454  /*{b-bar-background-start}*/,  #454545  /*{b-bar-background-end}*/); /* IE10 */
+	background-image:      -o-linear-gradient(top,  #545454  /*{b-bar-background-start}*/,  #454545  /*{b-bar-background-end}*/); /* Opera 11.10+ */
+	background-image:         linear-gradient(top,  #545454  /*{b-bar-background-start}*/,  #454545  /*{b-bar-background-end}*/);
+}
+
+.ui-bar-b .ui-link-inherit {
+	color:  #ffffff  /*{b-bar-color}*/;
+}
+.ui-bar-b .ui-link {
+	color:   #7cc4e7   /*{b-bar-link-color}*/;
+	font-weight: bold;
+}
+
+.ui-bar-b .ui-link:hover {
+	color:   #2489CE   /*{b-bar-link-hover}*/;
+}
+
+.ui-bar-b .ui-link:active {
+	color:   #2489CE   /*{b-bar-link-active}*/;
+}
+
+.ui-bar-b .ui-link:visited {
+    color:   #2489CE   /*{b-bar-link-visited}*/;
+}
+
+.ui-bar-b,
+.ui-bar-b input,
+.ui-bar-b select,
+.ui-bar-b textarea,
+.ui-bar-b button {
+	     font-family: Helvetica, Arial, sans-serif   /*{global-font-family}*/;
+}
+.ui-body-b {
+	border: 1px solid #7E7E7E /*{b-body-border}*/;
+	color: #000000 /*{b-body-color}*/;
+	text-shadow:   0   /*{b-body-shadow-x}*/   1px   /*{b-body-shadow-y}*/   0   /*{b-body-shadow-radius}*/ #eeeeee /*{b-body-shadow-color}*/;
+	background: #e6e6e6 /*{b-body-background-color}*/;
+	background-image: -webkit-gradient(linear, left top, left bottom, #FDFDFD /*{b-body-background-start}*/), #CFCFCF /*{b-body-background-end}*/)); /* Saf4+, Chrome */
+	background-image: -webkit-linear-gradient(top, #FDFDFD /*{b-body-background-start}*/, #CFCFCF /*{b-body-background-end}*/); /* Chrome 10+, Saf5.1+ */
+	background-image:    -moz-linear-gradient(top, #FDFDFD /*{b-body-background-start}*/, #CFCFCF /*{b-body-background-end}*/); /* FF3.6 */
+	background-image:     -ms-linear-gradient(top, #FDFDFD /*{b-body-background-start}*/, #CFCFCF /*{b-body-background-end}*/); /* IE10 */
+	background-image:      -o-linear-gradient(top, #FDFDFD /*{b-body-background-start}*/, #CFCFCF /*{b-body-background-end}*/); /* Opera 11.10+ */
+	background-image:         linear-gradient(top, #FDFDFD /*{b-body-background-start}*/, #CFCFCF /*{b-body-background-end}*/);
+}
+.ui-body-b,
+.ui-body-b input,
+.ui-body-b select,
+.ui-body-b textarea,
+.ui-body-b button {
+	     font-family: Helvetica, Arial, sans-serif   /*{global-font-family}*/;
+}
+
+.ui-body-b .ui-link-inherit {
+	color: #000000 /*{b-body-color}*/;
+}
+
+.ui-body-b .ui-link {
+	color: #2489CE /*{b-body-link-color}*/;
+	font-weight: bold;
+}
+
+.ui-body-b .ui-link:hover {
+	color:  #772825  /*{b-body-link-hover}*/;
+}
+
+.ui-body-b .ui-link:active {
+	color:  #682321  /*{b-body-link-active}*/;
+}
+
+.ui-body-b .ui-link:visited {
+    color:  #431615  /*{b-body-link-visited}*/;
+}
+
+.ui-btn-up-b {
+	border: 1px solid #e6e6e6 /*{b-bup-border}*/;
+	background: #e6e6e6 /*{b-bup-background-color}*/;
+	font-weight: bold;
+	color: #000000 /*{b-bup-color}*/;
+	text-shadow:   0   /*{b-bup-shadow-x}*/   1px   /*{b-bup-shadow-y}*/   1px   /*{b-bup-shadow-radius}*/ #eeeeee /*{b-bup-shadow-color}*/;
+	background-image: -webkit-gradient(linear, left top, left bottom, #FDFDFD /*{b-bup-background-start}*/), #CFCFCF /*{b-bup-background-end}*/)); /* Saf4+, Chrome */
+	background-image: -webkit-linear-gradient(top, #FDFDFD /*{b-bup-background-start}*/, #CFCFCF /*{b-bup-background-end}*/); /* Chrome 10+, Saf5.1+ */
+	background-image:    -moz-linear-gradient(top, #FDFDFD /*{b-bup-background-start}*/, #CFCFCF /*{b-bup-background-end}*/); /* FF3.6 */
+	background-image:     -ms-linear-gradient(top, #FDFDFD /*{b-bup-background-start}*/, #CFCFCF /*{b-bup-background-end}*/); /* IE10 */
+	background-image:      -o-linear-gradient(top, #FDFDFD /*{b-bup-background-start}*/, #CFCFCF /*{b-bup-background-end}*/); /* Opera 11.10+ */
+	background-image:         linear-gradient(top, #FDFDFD /*{b-bup-background-start}*/, #CFCFCF /*{b-bup-background-end}*/);
+}
+.ui-btn-up-b a.ui-link-inherit {
+	color: #000000 /*{b-bup-color}*/;
+}
+
+.ui-btn-hover-b {
+	border: 1px solid #FFFFFF /*{b-bhover-border}*/;
+	background: #FFFFFF /*{b-bhover-background-color}*/;
+	font-weight: bold;
+	color: #000000 /*{b-bhover-color}*/;
+	text-shadow:   0   /*{b-bhover-shadow-x}*/   1px   /*{b-bhover-shadow-y}*/   1px   /*{b-bhover-shadow-radius}*/ #eeeeee /*{b-bhover-shadow-color}*/;
+	background-image: -webkit-gradient(linear, left top, left bottom, #FFFFFF /*{b-bhover-background-start}*/), #E5E5E5 /*{b-bhover-background-end}*/)); /* Saf4+, Chrome */
+	background-image: -webkit-linear-gradient(top, #FFFFFF /*{b-bhover-background-start}*/, #E5E5E5 /*{b-bhover-background-end}*/); /* Chrome 10+, Saf5.1+ */
+	background-image:    -moz-linear-gradient(top, #FFFFFF /*{b-bhover-background-start}*/, #E5E5E5 /*{b-bhover-background-end}*/); /* FF3.6 */
+	background-image:     -ms-linear-gradient(top, #FFFFFF /*{b-bhover-background-start}*/, #E5E5E5 /*{b-bhover-background-end}*/); /* IE10 */
+	background-image:      -o-linear-gradient(top, #FFFFFF /*{b-bhover-background-start}*/, #E5E5E5 /*{b-bhover-background-end}*/); /* Opera 11.10+ */
+	background-image:         linear-gradient(top, #FFFFFF /*{b-bhover-background-start}*/, #E5E5E5 /*{b-bhover-background-end}*/);
+}
+.ui-btn-hover-b a.ui-link-inherit {
+	color: #000000 /*{b-bhover-color}*/;
+}
+.ui-btn-down-b {
+	border: 1px solid #FFFFFF /*{b-bdown-border}*/;
+	background: #FFFFFF /*{b-bdown-background-color}*/;
+	font-weight: bold;
+	color: #000000 /*{b-bdown-color}*/;
+	text-shadow:   0   /*{b-bdown-shadow-x}*/   1px   /*{b-bdown-shadow-y}*/   1px   /*{b-bdown-shadow-radius}*/ #eeeeee /*{b-bdown-shadow-color}*/;
+	background-image: -webkit-gradient(linear, left top, left bottom, #E5E5E5 /*{b-bdown-background-start}*/), #FFFFFF /*{b-bdown-background-end}*/)); /* Saf4+, Chrome */
+	background-image: -webkit-linear-gradient(top, #E5E5E5 /*{b-bdown-background-start}*/, #FFFFFF /*{b-bdown-background-end}*/); /* Chrome 10+, Saf5.1+ */
+	background-image:    -moz-linear-gradient(top, #E5E5E5 /*{b-bdown-background-start}*/, #FFFFFF /*{b-bdown-background-end}*/); /* FF3.6 */
+	background-image:     -ms-linear-gradient(top, #E5E5E5 /*{b-bdown-background-start}*/, #FFFFFF /*{b-bdown-background-end}*/); /* IE10 */
+	background-image:      -o-linear-gradient(top, #E5E5E5 /*{b-bdown-background-start}*/, #FFFFFF /*{b-bdown-background-end}*/); /* Opera 11.10+ */
+	background-image:         linear-gradient(top, #E5E5E5 /*{b-bdown-background-start}*/, #FFFFFF /*{b-bdown-background-end}*/);
+}
+.ui-btn-down-b a.ui-link-inherit {
+	color: #000000 /*{b-bdown-color}*/;
+}
+.ui-btn-up-b,
+.ui-btn-hover-b,
+.ui-btn-down-b {
+	     font-family: Helvetica, Arial, sans-serif   /*{global-font-family}*/;
+	text-decoration: none;
+}
+
+
 
 /* Structure */
 
@@ -169,20 +312,20 @@ a.ui-link-inherit {
 -----------------------------------------------------------------------------------------------------------*/
 
 .ui-btn-active {
-	border: 1px solid #799aa5 /*{global-active-border}*/;
-	background: #799aa5 /*{global-active-background-color}*/;
+	border: 1px solid #808080 /*{global-active-border}*/;
+	background: #808080 /*{global-active-background-color}*/;
 	font-weight: bold;
 	color: #ffffff /*{global-active-color}*/;
 	cursor: pointer;
-	text-shadow:  0  /*{global-active-shadow-x}*/  -1px  /*{global-active-shadow-y}*/  1px  /*{global-active-shadow-radius}*/ #444444 /*{global-active-shadow-color}*/;
+	text-shadow:   0   /*{global-active-shadow-x}*/   -1px   /*{global-active-shadow-y}*/   1px   /*{global-active-shadow-radius}*/ #444444 /*{global-active-shadow-color}*/;
 	text-decoration: none;
-	background-image: -webkit-gradient(linear, left top, left bottom, #85A9B5 /*{global-active-background-start}*/), #6C8A94 /*{global-active-background-end}*/)); /* Saf4+, Chrome */
-	background-image: -webkit-linear-gradient(top, #85A9B5 /*{global-active-background-start}*/, #6C8A94 /*{global-active-background-end}*/); /* Chrome 10+, Saf5.1+ */
-	background-image:    -moz-linear-gradient(top, #85A9B5 /*{global-active-background-start}*/, #6C8A94 /*{global-active-background-end}*/); /* FF3.6 */
-	background-image:     -ms-linear-gradient(top, #85A9B5 /*{global-active-background-start}*/, #6C8A94 /*{global-active-background-end}*/); /* IE10 */
-	background-image:      -o-linear-gradient(top, #85A9B5 /*{global-active-background-start}*/, #6C8A94 /*{global-active-background-end}*/); /* Opera 11.10+ */
-	background-image:         linear-gradient(top, #85A9B5 /*{global-active-background-start}*/, #6C8A94 /*{global-active-background-end}*/);
-	   font-family: Helvetica, Arial, sans-serif  /*{global-font-family}*/;
+	background-image: -webkit-gradient(linear, left top, left bottom, #8C8C8C /*{global-active-background-start}*/), #737373 /*{global-active-background-end}*/)); /* Saf4+, Chrome */
+	background-image: -webkit-linear-gradient(top, #8C8C8C /*{global-active-background-start}*/, #737373 /*{global-active-background-end}*/); /* Chrome 10+, Saf5.1+ */
+	background-image:    -moz-linear-gradient(top, #8C8C8C /*{global-active-background-start}*/, #737373 /*{global-active-background-end}*/); /* FF3.6 */
+	background-image:     -ms-linear-gradient(top, #8C8C8C /*{global-active-background-start}*/, #737373 /*{global-active-background-end}*/); /* IE10 */
+	background-image:      -o-linear-gradient(top, #8C8C8C /*{global-active-background-start}*/, #737373 /*{global-active-background-end}*/); /* Opera 11.10+ */
+	background-image:         linear-gradient(top, #8C8C8C /*{global-active-background-start}*/, #737373 /*{global-active-background-end}*/);
+	     font-family: Helvetica, Arial, sans-serif   /*{global-font-family}*/;
 }
 .ui-btn-active a.ui-link-inherit {
 	color: #ffffff /*{global-active-color}*/;
@@ -202,61 +345,61 @@ a.ui-link-inherit {
 -----------------------------------------------------------------------------------------------------------*/
 
 .ui-corner-tl {
-	-moz-border-radius-topleft: 0.5em /*{global-radii-blocks}*/;
-	-webkit-border-top-left-radius: 0.5em /*{global-radii-blocks}*/;
-	border-top-left-radius: 0.5em /*{global-radii-blocks}*/;
+	-moz-border-radius-topleft: 0.3em /*{global-radii-blocks}*/;
+	-webkit-border-top-left-radius: 0.3em /*{global-radii-blocks}*/;
+	border-top-left-radius: 0.3em /*{global-radii-blocks}*/;
 }
 .ui-corner-tr {
-	-moz-border-radius-topright: 0.5em /*{global-radii-blocks}*/;
-	-webkit-border-top-right-radius: 0.5em /*{global-radii-blocks}*/;
-	border-top-right-radius: 0.5em /*{global-radii-blocks}*/;
+	-moz-border-radius-topright: 0.3em /*{global-radii-blocks}*/;
+	-webkit-border-top-right-radius: 0.3em /*{global-radii-blocks}*/;
+	border-top-right-radius: 0.3em /*{global-radii-blocks}*/;
 }
 .ui-corner-bl {
-	-moz-border-radius-bottomleft: 0.5em /*{global-radii-blocks}*/;
-	-webkit-border-bottom-left-radius: 0.5em /*{global-radii-blocks}*/;
-	border-bottom-left-radius: 0.5em /*{global-radii-blocks}*/;
+	-moz-border-radius-bottomleft: 0.3em /*{global-radii-blocks}*/;
+	-webkit-border-bottom-left-radius: 0.3em /*{global-radii-blocks}*/;
+	border-bottom-left-radius: 0.3em /*{global-radii-blocks}*/;
 }
 .ui-corner-br {
-	-moz-border-radius-bottomright: 0.5em /*{global-radii-blocks}*/;
-	-webkit-border-bottom-right-radius: 0.5em /*{global-radii-blocks}*/;
-	border-bottom-right-radius: 0.5em /*{global-radii-blocks}*/;
+	-moz-border-radius-bottomright: 0.3em /*{global-radii-blocks}*/;
+	-webkit-border-bottom-right-radius: 0.3em /*{global-radii-blocks}*/;
+	border-bottom-right-radius: 0.3em /*{global-radii-blocks}*/;
 }
 .ui-corner-top {
-	-moz-border-radius-topleft: 0.5em /*{global-radii-blocks}*/;
-	-webkit-border-top-left-radius: 0.5em /*{global-radii-blocks}*/;
-	border-top-left-radius: 0.5em /*{global-radii-blocks}*/;
-	-moz-border-radius-topright: 0.5em /*{global-radii-blocks}*/;
-	-webkit-border-top-right-radius: 0.5em /*{global-radii-blocks}*/;
-	border-top-right-radius: 0.5em /*{global-radii-blocks}*/;
+	-moz-border-radius-topleft: 0.3em /*{global-radii-blocks}*/;
+	-webkit-border-top-left-radius: 0.3em /*{global-radii-blocks}*/;
+	border-top-left-radius: 0.3em /*{global-radii-blocks}*/;
+	-moz-border-radius-topright: 0.3em /*{global-radii-blocks}*/;
+	-webkit-border-top-right-radius: 0.3em /*{global-radii-blocks}*/;
+	border-top-right-radius: 0.3em /*{global-radii-blocks}*/;
 }
 .ui-corner-bottom {
-	-moz-border-radius-bottomleft: 0.5em /*{global-radii-blocks}*/;
-	-webkit-border-bottom-left-radius: 0.5em /*{global-radii-blocks}*/;
-	border-bottom-left-radius: 0.5em /*{global-radii-blocks}*/;
-	-moz-border-radius-bottomright: 0.5em /*{global-radii-blocks}*/;
-	-webkit-border-bottom-right-radius: 0.5em /*{global-radii-blocks}*/;
-	border-bottom-right-radius: 0.5em /*{global-radii-blocks}*/;
+	-moz-border-radius-bottomleft: 0.3em /*{global-radii-blocks}*/;
+	-webkit-border-bottom-left-radius: 0.3em /*{global-radii-blocks}*/;
+	border-bottom-left-radius: 0.3em /*{global-radii-blocks}*/;
+	-moz-border-radius-bottomright: 0.3em /*{global-radii-blocks}*/;
+	-webkit-border-bottom-right-radius: 0.3em /*{global-radii-blocks}*/;
+	border-bottom-right-radius: 0.3em /*{global-radii-blocks}*/;
 	}
 .ui-corner-right {
-	-moz-border-radius-topright: 0.5em /*{global-radii-blocks}*/;
-	-webkit-border-top-right-radius: 0.5em /*{global-radii-blocks}*/;
-	border-top-right-radius: 0.5em /*{global-radii-blocks}*/;
-	-moz-border-radius-bottomright: 0.5em /*{global-radii-blocks}*/;
-	-webkit-border-bottom-right-radius: 0.5em /*{global-radii-blocks}*/;
-	border-bottom-right-radius: 0.5em /*{global-radii-blocks}*/;
+	-moz-border-radius-topright: 0.3em /*{global-radii-blocks}*/;
+	-webkit-border-top-right-radius: 0.3em /*{global-radii-blocks}*/;
+	border-top-right-radius: 0.3em /*{global-radii-blocks}*/;
+	-moz-border-radius-bottomright: 0.3em /*{global-radii-blocks}*/;
+	-webkit-border-bottom-right-radius: 0.3em /*{global-radii-blocks}*/;
+	border-bottom-right-radius: 0.3em /*{global-radii-blocks}*/;
 }
 .ui-corner-left {
-	-moz-border-radius-topleft: 0.5em /*{global-radii-blocks}*/;
-	-webkit-border-top-left-radius: 0.5em /*{global-radii-blocks}*/;
-	border-top-left-radius: 0.5em /*{global-radii-blocks}*/;
-	-moz-border-radius-bottomleft: 0.5em /*{global-radii-blocks}*/;
-	-webkit-border-bottom-left-radius: 0.5em /*{global-radii-blocks}*/;
-	border-bottom-left-radius: 0.5em /*{global-radii-blocks}*/;
+	-moz-border-radius-topleft: 0.3em /*{global-radii-blocks}*/;
+	-webkit-border-top-left-radius: 0.3em /*{global-radii-blocks}*/;
+	border-top-left-radius: 0.3em /*{global-radii-blocks}*/;
+	-moz-border-radius-bottomleft: 0.3em /*{global-radii-blocks}*/;
+	-webkit-border-bottom-left-radius: 0.3em /*{global-radii-blocks}*/;
+	border-bottom-left-radius: 0.3em /*{global-radii-blocks}*/;
 }
 .ui-corner-all {
-	-moz-border-radius: 0.5em /*{global-radii-blocks}*/;
-	-webkit-border-radius: 0.5em /*{global-radii-blocks}*/;
-	border-radius: 0.5em /*{global-radii-blocks}*/;
+	-moz-border-radius: 0.3em /*{global-radii-blocks}*/;
+	-webkit-border-radius: 0.3em /*{global-radii-blocks}*/;
+	border-radius: 0.3em /*{global-radii-blocks}*/;
 }
 .ui-corner-none {
 	-moz-border-radius: 				   0;
@@ -411,7 +554,7 @@ a.ui-link-inherit {
 }
 .ui-checkbox-on .ui-icon,
 .ui-radio-on .ui-icon {
-	background-color: #799aa5 /*{global-active-background-color}*/; /* NOTE: this hex should match the active state color. It's repeated here for cascade */
+	background-color: #808080 /*{global-active-background-color}*/; /* NOTE: this hex should match the active state color. It's repeated here for cascade */
 }
 
 /* loading icon */
@@ -430,61 +573,61 @@ a.ui-link-inherit {
 -----------------------------------------------------------------------------------------------------------*/
 
 .ui-btn-corner-tl {
-	-moz-border-radius-topleft:  						1em  /*{global-radii-buttons}*/;
-	-webkit-border-top-left-radius:  						1em  /*{global-radii-buttons}*/;
-	border-top-left-radius:  						1em  /*{global-radii-buttons}*/;
+	-moz-border-radius-topleft: 0.5em /*{global-radii-buttons}*/;
+	-webkit-border-top-left-radius: 0.5em /*{global-radii-buttons}*/;
+	border-top-left-radius: 0.5em /*{global-radii-buttons}*/;
 }
 .ui-btn-corner-tr {
-	-moz-border-radius-topright:  						1em  /*{global-radii-buttons}*/;
-	-webkit-border-top-right-radius:  						1em  /*{global-radii-buttons}*/;
-	border-top-right-radius:  						1em  /*{global-radii-buttons}*/;
+	-moz-border-radius-topright: 0.5em /*{global-radii-buttons}*/;
+	-webkit-border-top-right-radius: 0.5em /*{global-radii-buttons}*/;
+	border-top-right-radius: 0.5em /*{global-radii-buttons}*/;
 }
 .ui-btn-corner-bl {
-	-moz-border-radius-bottomleft:  						1em  /*{global-radii-buttons}*/;
-	-webkit-border-bottom-left-radius:  						1em  /*{global-radii-buttons}*/;
-	border-bottom-left-radius:  						1em  /*{global-radii-buttons}*/;
+	-moz-border-radius-bottomleft: 0.5em /*{global-radii-buttons}*/;
+	-webkit-border-bottom-left-radius: 0.5em /*{global-radii-buttons}*/;
+	border-bottom-left-radius: 0.5em /*{global-radii-buttons}*/;
 }
 .ui-btn-corner-br {
-	-moz-border-radius-bottomright:  						1em  /*{global-radii-buttons}*/;
-	-webkit-border-bottom-right-radius:  						1em  /*{global-radii-buttons}*/;
-	border-bottom-right-radius:  						1em  /*{global-radii-buttons}*/;
+	-moz-border-radius-bottomright: 0.5em /*{global-radii-buttons}*/;
+	-webkit-border-bottom-right-radius: 0.5em /*{global-radii-buttons}*/;
+	border-bottom-right-radius: 0.5em /*{global-radii-buttons}*/;
 }
 .ui-btn-corner-top {
-	-moz-border-radius-topleft:  						1em  /*{global-radii-buttons}*/;
-	-webkit-border-top-left-radius:  						1em  /*{global-radii-buttons}*/;
-	border-top-left-radius:  						1em  /*{global-radii-buttons}*/;
-	-moz-border-radius-topright:  						1em  /*{global-radii-buttons}*/;
-	-webkit-border-top-right-radius:  						1em  /*{global-radii-buttons}*/;
-	border-top-right-radius:  						1em  /*{global-radii-buttons}*/;
+	-moz-border-radius-topleft: 0.5em /*{global-radii-buttons}*/;
+	-webkit-border-top-left-radius: 0.5em /*{global-radii-buttons}*/;
+	border-top-left-radius: 0.5em /*{global-radii-buttons}*/;
+	-moz-border-radius-topright: 0.5em /*{global-radii-buttons}*/;
+	-webkit-border-top-right-radius: 0.5em /*{global-radii-buttons}*/;
+	border-top-right-radius: 0.5em /*{global-radii-buttons}*/;
 }
 .ui-btn-corner-bottom {
-	-moz-border-radius-bottomleft:  						1em  /*{global-radii-buttons}*/;
-	-webkit-border-bottom-left-radius:  						1em  /*{global-radii-buttons}*/;
-	border-bottom-left-radius:  						1em  /*{global-radii-buttons}*/;
-	-moz-border-radius-bottomright:  						1em  /*{global-radii-buttons}*/;
-	-webkit-border-bottom-right-radius:  						1em  /*{global-radii-buttons}*/;
-	border-bottom-right-radius:  						1em  /*{global-radii-buttons}*/;
+	-moz-border-radius-bottomleft: 0.5em /*{global-radii-buttons}*/;
+	-webkit-border-bottom-left-radius: 0.5em /*{global-radii-buttons}*/;
+	border-bottom-left-radius: 0.5em /*{global-radii-buttons}*/;
+	-moz-border-radius-bottomright: 0.5em /*{global-radii-buttons}*/;
+	-webkit-border-bottom-right-radius: 0.5em /*{global-radii-buttons}*/;
+	border-bottom-right-radius: 0.5em /*{global-radii-buttons}*/;
 }
 .ui-btn-corner-right {
-	 -moz-border-radius-topright:  						1em  /*{global-radii-buttons}*/;
-	-webkit-border-top-right-radius:  						1em  /*{global-radii-buttons}*/;
-	border-top-right-radius:  						1em  /*{global-radii-buttons}*/;
-	-moz-border-radius-bottomright:  						1em  /*{global-radii-buttons}*/;
-	-webkit-border-bottom-right-radius:  						1em  /*{global-radii-buttons}*/;
-	border-bottom-right-radius:  						1em  /*{global-radii-buttons}*/;
+	 -moz-border-radius-topright: 0.5em /*{global-radii-buttons}*/;
+	-webkit-border-top-right-radius: 0.5em /*{global-radii-buttons}*/;
+	border-top-right-radius: 0.5em /*{global-radii-buttons}*/;
+	-moz-border-radius-bottomright: 0.5em /*{global-radii-buttons}*/;
+	-webkit-border-bottom-right-radius: 0.5em /*{global-radii-buttons}*/;
+	border-bottom-right-radius: 0.5em /*{global-radii-buttons}*/;
 }
 .ui-btn-corner-left {
-	-moz-border-radius-topleft:  						1em  /*{global-radii-buttons}*/;
-	-webkit-border-top-left-radius:  						1em  /*{global-radii-buttons}*/;
-	border-top-left-radius:  						1em  /*{global-radii-buttons}*/;
-	-moz-border-radius-bottomleft:  						1em  /*{global-radii-buttons}*/;
-	-webkit-border-bottom-left-radius:  						1em  /*{global-radii-buttons}*/;
-	border-bottom-left-radius:  						1em  /*{global-radii-buttons}*/;
+	-moz-border-radius-topleft: 0.5em /*{global-radii-buttons}*/;
+	-webkit-border-top-left-radius: 0.5em /*{global-radii-buttons}*/;
+	border-top-left-radius: 0.5em /*{global-radii-buttons}*/;
+	-moz-border-radius-bottomleft: 0.5em /*{global-radii-buttons}*/;
+	-webkit-border-bottom-left-radius: 0.5em /*{global-radii-buttons}*/;
+	border-bottom-left-radius: 0.5em /*{global-radii-buttons}*/;
 }
 .ui-btn-corner-all {
-	-moz-border-radius:  						1em  /*{global-radii-buttons}*/;
-	-webkit-border-radius:  						1em  /*{global-radii-buttons}*/;
-	border-radius:  						1em  /*{global-radii-buttons}*/;
+	-moz-border-radius: 0.5em /*{global-radii-buttons}*/;
+	-webkit-border-radius: 0.5em /*{global-radii-buttons}*/;
+	border-radius: 0.5em /*{global-radii-buttons}*/;
 }
 
 /* radius clip workaround for cleaning up corner trapping */
@@ -528,9 +671,9 @@ a.ui-link-inherit {
 	box-shadow: 0px 0px 12px 				rgba(0,0,0,.6);
 }
 .ui-shadow {
-	-moz-box-shadow: 0px 1px  4px  /*{global-box-shadow-size}*/  				rgba(0,0,0,.3)  /*{global-box-shadow-color}*/;
-	-webkit-box-shadow: 0px 1px  4px  /*{global-box-shadow-size}*/  				rgba(0,0,0,.3)  /*{global-box-shadow-color}*/;
-	box-shadow: 0px 1px  4px  /*{global-box-shadow-size}*/  				rgba(0,0,0,.3)  /*{global-box-shadow-color}*/;
+	-moz-box-shadow: 0px 1px   4px   /*{global-box-shadow-size}*/ rgba(0,0,0,0.5) /*{global-box-shadow-color}*/;
+	-webkit-box-shadow: 0px 1px   4px   /*{global-box-shadow-size}*/ rgba(0,0,0,0.5) /*{global-box-shadow-color}*/;
+	box-shadow: 0px 1px   4px   /*{global-box-shadow-size}*/ rgba(0,0,0,0.5) /*{global-box-shadow-color}*/;
 }
 .ui-bar-a .ui-shadow,
 .ui-bar-b .ui-shadow ,
@@ -554,9 +697,9 @@ a.ui-link-inherit {
 -----------------------------------------------------------------------------------------------------------*/
 
 .ui-focus {
-	-moz-box-shadow: 0px 0px 12px #799aa5 /*{global-active-background-color}*/;
-	-webkit-box-shadow: 0px 0px 12px #799aa5 /*{global-active-background-color}*/;
-	box-shadow: 0px 0px 12px #799aa5 /*{global-active-background-color}*/;
+	-moz-box-shadow: 0px 0px 12px #808080 /*{global-active-background-color}*/;
+	-webkit-box-shadow: 0px 0px 12px #808080 /*{global-active-background-color}*/;
+	box-shadow: 0px 0px 12px #808080 /*{global-active-background-color}*/;
 }
 
 /* unset box shadow in browsers that don't do it right
