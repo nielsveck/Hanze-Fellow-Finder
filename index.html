@@ -5,8 +5,10 @@
 		
   		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="stylesheet" href="assets/css/master.css" />
+
 		<link rel="stylesheet" href="http://code.jquery.com/mobile/1.0rc2/jquery.mobile.structure-1.0rc2.min.css" /> 
+		<link rel="stylesheet" href="assets/css/style.css" />
+		
 		<script src="http://code.jquery.com/jquery-1.7.min.js"></script> 
 		<script src="http://code.jquery.com/mobile/1.0rc2/jquery.mobile-1.0rc2.min.js"></script> 
 		
@@ -15,47 +17,24 @@
 		<!--<script src="phonegap.js" type="text/javascript" charset="utf-8"></script>-->
 	</head>
 	<body> 
-		<div data-role="page" data-theme="a" data-add-back-btn="true" id="home">
+		<div data-role="page" data-theme="b" data-add-back-btn="true" id="home">
 			<div data-role="header" data-theme="a">
 				<h1>Hanze Fellow Finder</h1>
 			</div><!-- /header -->
 		
-			<div data-role="content" data-content-theme="a">	
+			<div data-role="content">	
 				<a href="#" data-role="button">Locatie doorgeven</a>
 				<a href="#" id="collegaButton" data-role="button">Locatie collega bekijken</a>
 			</div><!-- /content -->
 		</div><!-- /page -->
 		
-		<div data-role="page" data-theme="a" data-add-back-btn="true" id="collega">
+		<div data-role="page" data-theme="b" data-add-back-btn="true" id="collega">
 			<div data-role="header" data-theme="a">
 				<h1>Vind een collega</h1>
 			</div><!-- /header -->
 		
 			<div data-role="content" data-content-theme="a">	
-				<ul id="collegaList" data-role="listview" data-filter="true" data-filter-placeholder="Zoek personen…" data-theme="b">
-					<li data-role="list-divider">A</li>
-					<li>
-						<a href="#">
-							<img src="icon.png" width="80px" />
-							<h3>Alex</h3>
-							<p>test test test…</p>
-						</a>
-					</li>
-					<li data-role="list-divider">B</li>
-					<li>
-						<a href="#">
-							<img src="icon.png" width="80px" />
-							<h3>Bas</h3>
-							<p>test test test…</p>
-						</a>
-					</li>
-					<li>
-						<a href="#">					
-							<img src="icon.png" width="80px" />
-							<h3>Benno</h3>
-							<p>test test test…</p>
-						</a>
-					</li>					
+				<ul id="collegaList" data-role="listview" data-filter="true" data-filter-placeholder="Zoek personen…" data-theme="c">				
 				</ul>
 			</div><!-- /content -->
 		</div><!-- /page -->
