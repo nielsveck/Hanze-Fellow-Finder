@@ -13,6 +13,7 @@
 		<script src="http://code.jquery.com/mobile/1.0rc2/jquery.mobile-1.0rc2.min.js"></script> 
 		
 		<script src="assets/js/app.js" type="text/javascript" charset="utf-8"></script>
+		<script src="assets/js/dragNscale.js" type="text/javascript" charset="utf-8"></script>		
 		
 		<!--<script src="phonegap.js" type="text/javascript" charset="utf-8"></script>-->
 	</head>
@@ -20,23 +21,25 @@
 		<div data-role="page" data-theme="b" data-add-back-btn="true" id="home">
 			<div data-role="header" data-theme="a">
 				<h1>Hanze Fellow Finder</h1>
-			</div><!-- /header -->
+			</div>
 		
 			<div data-role="content">	
 				<a href="#" data-role="button">Locatie doorgeven</a>
 				<a href="#" id="collegaButton" data-role="button">Locatie collega bekijken</a>
-			</div><!-- /content -->
-		</div><!-- /page -->
+			</div>
+		</div>
 		
-		<div data-role="page" data-theme="b" data-add-back-btn="true" id="collega">
+		<div data-role="page" data-theme="b" data-add-back-btn="true" id="collegaLijst">
 			<div data-role="header" data-theme="a">
 				<h1>Vind een collega</h1>
-			</div><!-- /header -->
+			</div>
 		
 			<div data-role="content" data-content-theme="a">	
 				<ul id="collegaList" data-role="listview" data-filter="true" data-filter-placeholder="Zoek personen…" data-theme="c">				
 				</ul>
-			</div><!-- /content -->
-		</div><!-- /page -->
+			</div>
+		</div>
+		
+		<div data-role="page" data-theme="b" data-add-back-btn="true" id="collega"></div>		
 	</body>
 </html>
