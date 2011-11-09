@@ -27,11 +27,7 @@ if(!isset($_POST['data'])){
 	$query = mysql_query($sql, $conn);
 	
 	while($record = mysql_fetch_object($query)){
-		echo '<div data-role="header" data-theme="a">
-					<h1>'.$record->naam.'</h1>
-				</div>
-	
-				<div id="collegaInfo" data-role="content" data-content-theme="a">	
+		echo '<div id="collegaInfo" data-role="content" class="ui-body-b ui-content" data-content-theme="a">	
 					<div id="gegevens" class="ui-body-b">
 						<img class="foto" src="'.$record->afbeelding.'" />
 						<h2>'.$record->naam.'</h2>

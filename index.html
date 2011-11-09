@@ -6,11 +6,11 @@
   		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 
-		<link rel="stylesheet" href="http://code.jquery.com/mobile/1.0rc2/jquery.mobile.structure-1.0rc2.min.css" /> 
+		<link rel="stylesheet" href="assets/css/jquery.mobile.structure-1.0rc2.min.css" /> 
 		<link rel="stylesheet" href="assets/css/style.css" />
 		
-		<script src="http://code.jquery.com/jquery-1.7.min.js"></script> 
-		<script src="http://code.jquery.com/mobile/1.0rc2/jquery.mobile-1.0rc2.min.js"></script> 
+		<script src="assets/js/jquery-1.7.min.js"></script> 
+		<script src="assets/js/jquery.mobile-1.0rc2.min.js"></script> 
 		
 		<script src="assets/js/app.js" type="text/javascript" charset="utf-8"></script>
 		<script src="assets/js/dragNscale.js" type="text/javascript" charset="utf-8"></script>		
@@ -23,9 +23,9 @@
 				<h1>Hanze Fellow Finder</h1>
 			</div>
 		
-			<div data-role="content">	
-				<a href="#" data-role="button">Locatie doorgeven</a>
-				<a href="#" id="collegaButton" data-role="button">Locatie collega bekijken</a>
+			<div data-role="content" data-theme="c">	
+				<a href="#" data-theme="b" data-role="button">Locatie doorgeven</a>
+				<a href="#" data-theme="b" id="collegaButton" data-role="button">Locatie collega bekijken</a>
 			</div>
 		</div>
 		
@@ -40,6 +40,12 @@
 			</div>
 		</div>
 		
-		<div data-role="page" data-theme="b" data-add-back-btn="true" id="collega"></div>		
+		<div data-role="page" data-theme="b" data-add-back-btn="true" data-fetch="always" id="collega">
+			<div data-role="header" data-theme="a">
+				<h1>Hanze Fellow Finder</h1>
+			</div>
+			<div data-role="content" data-content-theme="a" class="ui-content ui-body-b" id="collegaContent">	
+			</div>			
+		</div>		
 	</body>
 </html>
