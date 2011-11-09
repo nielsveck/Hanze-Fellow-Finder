@@ -27,7 +27,7 @@ if(!isset($_POST['data'])){
 	$query = mysql_query($sql, $conn);
 	
 	while($record = mysql_fetch_object($query)){
-		echo '<div id="collegaInfo" data-role="content" class="ui-body-b ui-content" data-content-theme="a">	
+		echo '<div id="collegaInfo" data-role="content" data-content-theme="a">	
 					<div id="gegevens" class="ui-body-b">
 						<img class="foto" src="'.$record->afbeelding.'" />
 						<h2>'.$record->naam.'</h2>
@@ -40,7 +40,7 @@ if(!isset($_POST['data'])){
 						<p><span class="label">Locatie:</span>'.$record->locatie.'</p>
 					</div>
 					<div id="locatie" data-scroll="true">
-						<canvas id="canvas" width="1321" height="881" style="position: relative; left: -'.($record->pos_x - 175).'px; top: -'.($record->pos_y - 175).'px"></canvas>
+						<canvas id="canvas" width="1321" height="881" style="position: relative; left: -'.($record->pos_x - 125).'px; top: -'.($record->pos_y - 125).'px"></canvas>
 					</div>
 				</div>';
 				
