@@ -13,7 +13,7 @@ if(!isset($_POST['data'])){
 		}
 		echo '<li>
 					<a class="collegaLink" href="#" data-url="?id='.$record->id.'">
-						<img src="'.$record->afbeelding.'" width="80px" />
+						<img src="pasfotos/'.$record->afbeelding.'" width="80px" />
 						<h3>'.$record->naam.'</h3>
 						<p>'.$record->functie.'</p>
 					</a>
@@ -29,7 +29,7 @@ if(!isset($_POST['data'])){
 	while($record = mysql_fetch_object($query)){
 		echo '<div id="collegaInfo">	
 					<div id="gegevens" class="ui-body-b">
-						<img class="foto" src="'.$record->afbeelding.'" />
+						<img class="foto" src="pasfotos/'.$record->afbeelding.'" />
 						<h2>'.$record->naam.'</h2>
 						<p>'.$record->functie.'</p>
 						<p id="info">
