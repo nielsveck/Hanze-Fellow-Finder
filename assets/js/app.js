@@ -18,6 +18,28 @@ $( function() {
 		});	
 	});	
 	
+	
+	$('#loginForm').submit(function() {
+		var postTo = 'login.php';
+		$('#output').html('');
+		$.post(postTo,{gebruikersnaam: $('[name=gebruikersnaam]').val() , wachtwoord: $('[name=wachtwoord]').val()} ,
+			function(data) {		
+				if(data.message) {
+					if(data.success){
+						$('#output').html('');
+						$.mobile.changePage("#keuze");
+					}else{
+						$('#output').html(data.message);
+					}
+				} else {
+					$('#output').html('Kon geen verbinding maken.');
+				}		
+			},'json'
+		);
+		
+		return false;
+	});	
+	
 	function laadCollega(dataurl){			
 		$.mobile.showPageLoadingMsg();
 				

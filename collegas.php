@@ -39,7 +39,7 @@ if(!isset($_POST['data'])){
 
 						<p><span class="label">Locatie:</span>'.$record->locatie.'</p>
 					</div>
-					<div id="locatie" data-scroll="true">
+					<div id="locatie">
 						<canvas id="canvas" width="1321" height="881" style="position: relative; left: -'.($record->pos_x - 125).'px; top: -'.($record->pos_y - 125).'px"></canvas>
 					</div>
 				</div>';

@@ -1903,8 +1903,8 @@ span.ui-slider-label-b { right: -100%;  margin-left: -1px }
  *
  **********************************************/
  
-#collegaInfo{
-	background: #fff;
+#output{
+	color: red;
 }
   
 #collegaInfo .foto{
@@ -1917,7 +1917,6 @@ span.ui-slider-label-b { right: -100%;  margin-left: -1px }
 }
 
 #locatie{
-	background: #fff;
 	margin: -15px;
 }
 

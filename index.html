@@ -24,6 +24,28 @@
 			</div>
 		
 			<div data-role="content" data-theme="c">	
+				<h2>Login</h2>
+				<p>Login om de Hanze Fellow Finder te gebruiken.</p>
+				<p id="output"></p>
+				<form id="loginForm" method="post">
+				<div data-role="fieldcontain" class="ui-hide-label">
+					<label for="gebruikersnaam">Gebruikersnaam:</label>
+					<input type="text" name="gebruikersnaam" id="gebruikersnaam" value="" placeholder="Gebruikersnaam"/>
+					<br />
+					<label for="wachtwoord">Wachtwoord:</label>
+					<input type="password" name="wachtwoord" id="wachtwoord" value="" placeholder="Wachtwoord"/>
+				</div>
+				<button type="submit" data-theme="b" class="ui-btn-hidden" aria-disabled="false">Login</button>
+				</form>
+			</div>
+		</div>
+		
+		<div data-role="page" data-theme="b" data-add-back-btn="true" id="keuze">
+			<div data-role="header" data-theme="a">
+				<h1>Hanze Fellow Finder</h1>
+			</div>
+		
+			<div data-role="content" data-theme="c">	
 				<a href="#" data-theme="b" data-role="button">Locatie doorgeven</a>
 				<a href="#" data-theme="b" id="collegaButton" data-role="button">Locatie collega bekijken</a>
 			</div>
