@@ -27,7 +27,11 @@ $( function() {
 				if(data.message) {
 					if(data.success){
 						$('#output').html('');
-						$.mobile.changePage("#keuze");
+						$('#collegaInfo').load("http://nielsvaneck.nl/fellowFinder/collega.php", {gebruikersnaam: $('[name=gebruikersnaam]').val()}, function(){
+							$.mobile.showPageLoadingMsg();
+							$.mobile.changePage("#keuze");
+							$.mobile.hidePageLoadingMsg();  							
+						});
 					}else{
 						$('#output').html(data.message);
 					}
