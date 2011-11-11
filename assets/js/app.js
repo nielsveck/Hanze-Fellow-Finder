@@ -20,7 +20,7 @@ $( function() {
 	
 	
 	$('#loginForm').submit(function() {
-		var postTo = 'login.php';
+		var postTo = 'http://nielsvaneck.nl/fellowFinder/login.php';
 		$('#output').html('');
 		$.post(postTo,{gebruikersnaam: $('[name=gebruikersnaam]').val() , wachtwoord: $('[name=wachtwoord]').val()} ,
 			function(data) {		
